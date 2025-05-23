@@ -1,5 +1,6 @@
 import Conditional from "./components/Conditional"
 import Datapass from "./components/Datapass"
+import ExpensiveComputations from "./components/ExpensiveComputations"
 import Footer from "./components/Footer"
 import Form from "./components/Form"
 import LearnHok from "./components/LearnHok"
@@ -34,6 +35,7 @@ const App = () => {
         <LearnHok></LearnHok> */}
         <UsEREF></UsEREF>
         <Mutable></Mutable>
+        <ExpensiveComputations></ExpensiveComputations>
     </div>
   )
 }
