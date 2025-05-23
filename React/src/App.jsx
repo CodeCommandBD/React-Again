@@ -4,7 +4,9 @@ import Footer from "./components/Footer"
 import Form from "./components/Form"
 import LearnHok from "./components/LearnHok"
 import Loop from "./components/Loop"
+import Mutable from "./components/Mutable"
 import Navbar from "./components/Navbar"
+import UsEREF from "./components/UsEREF"
 
 
 
@@ -23,13 +25,15 @@ const App = () => {
 
   return (
     <div>
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar>
         <Footer></Footer>
         <Loop></Loop>
         <Conditional></Conditional>
         <Datapass items={items} btn={btnClick}></Datapass>
         <Form></Form>
-        <LearnHok></LearnHok>
+        <LearnHok></LearnHok> */}
+        <UsEREF></UsEREF>
+        <Mutable></Mutable>
     </div>
   )
 }
