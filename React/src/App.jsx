@@ -8,6 +8,7 @@ import Loop from "./components/Loop"
 import Mutable from "./components/Mutable"
 import Navbar from "./components/Navbar"
 import UsEREF from "./components/UsEREF"
+import UseState from "./components/UseState"
 
 
 
@@ -32,10 +33,11 @@ const App = () => {
         <Conditional></Conditional>
         <Datapass items={items} btn={btnClick}></Datapass>
         <Form></Form> */}
-        <LearnHok></LearnHok>
+        {/* <LearnHok></LearnHok>
         <UsEREF></UsEREF>
         <Mutable></Mutable>
-        <ExpensiveComputations></ExpensiveComputations>
+        <ExpensiveComputations></ExpensiveComputations> */}
+        <UseState></UseState>
     </div>
   )
 }
