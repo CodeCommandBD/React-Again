@@ -7,6 +7,7 @@ import LearnHok from "./components/LearnHok"
 import Loop from "./components/Loop"
 import Mutable from "./components/Mutable"
 import Navbar from "./components/Navbar"
+import ToDo from "./components/ToDo"
 import UsEREF from "./components/UsEREF"
 import UseState from "./components/UseState"
 
@@ -38,6 +39,7 @@ const App = () => {
         <Mutable></Mutable>
         <ExpensiveComputations></ExpensiveComputations> */}
         <UseState></UseState>
+        <ToDo></ToDo>
     </div>
   )
 }
