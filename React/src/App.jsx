@@ -38,7 +38,7 @@ const App = () => {
         <UsEREF></UsEREF>
         <Mutable></Mutable>
         <ExpensiveComputations></ExpensiveComputations> */}
-        <UseState></UseState>
+        {/* <UseState></UseState> */}
         <ToDo></ToDo>
     </div>
   )
