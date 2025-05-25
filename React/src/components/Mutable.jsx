@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 
 const Mutable = () => {
 
-    let number = useRef(0);
+    let number = useRef(5);
 
     const change = () =>{
         number.current ++
@@ -11,7 +11,7 @@ const Mutable = () => {
 
   return (
     <div>
-        <button onClick={change}>click</button>
+        <button onClick={change}>Mutable</button>
     </div>
   )
 }

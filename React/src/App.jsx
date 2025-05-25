@@ -14,15 +14,15 @@ import UsEREF from "./components/UsEREF"
 
 const App = () => {
 
-  const items = {
-        name: 'shanto',
-        age: 25,
-        address: 'Dhaka'
-  }
+  // const items = {
+  //       name: 'shanto',
+  //       age: 25,
+  //       address: 'Dhaka'
+  // }
 
-  const btnClick = () =>{
-    alert('hello')
-  }
+  // const btnClick = () =>{
+  //   alert('hello')
+  // }
 
   return (
     <div>
@@ -31,8 +31,8 @@ const App = () => {
         <Loop></Loop>
         <Conditional></Conditional>
         <Datapass items={items} btn={btnClick}></Datapass>
-        <Form></Form>
-        <LearnHok></LearnHok> */}
+        <Form></Form> */}
+        <LearnHok></LearnHok>
         <UsEREF></UsEREF>
         <Mutable></Mutable>
         <ExpensiveComputations></ExpensiveComputations>

@@ -11,24 +11,25 @@ const LearnHok = () => {
       header.current.setAttribute('width', '200px')
     }
     
-    const cl = () => {
+    const inputCl = () => {
       let fname = firstName.value;
       let lname = lastName.value;
 
-      alert(fname + lname)
+      alert(fname+' '+ lname)
     }
 
   return (
     <div>
-        <h1 ref={header}></h1>
+        {/* <h1 ref={header}></h1> */}
         <img ref={header} src="https://placehold.co/600x400" alt="" />
-
+        <br />
+        <button onClick={change}>button</button>
+        <br />
+        <br />
         <input ref={(a)=>firstName=a} type="text" name="" id="" />
         <input ref={(a)=>lastName=a} type="text" name="" id="" />
 
-        <button onClick={cl}>submit</button>
-
-        <button onClick={change}>br</button>
+        <button onClick={inputCl}>submit</button>
     </div>
   )
 }
