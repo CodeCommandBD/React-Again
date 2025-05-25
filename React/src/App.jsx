@@ -32,14 +32,15 @@ const App = () => {
         <Footer></Footer>
         <Loop></Loop>
         <Conditional></Conditional>
-        <Datapass items={items} btn={btnClick}></Datapass>
-        <Form></Form> */}
+        <Datapass items={items} btn={btnClick}></Datapass> */}
+        
         {/* <LearnHok></LearnHok>
         <UsEREF></UsEREF>
         <Mutable></Mutable>
         <ExpensiveComputations></ExpensiveComputations> */}
         {/* <UseState></UseState> */}
-        <ToDo></ToDo>
+        {/* <ToDo></ToDo> */}
+        <Form></Form>
     </div>
   )
 }
