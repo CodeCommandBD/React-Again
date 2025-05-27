@@ -9,6 +9,7 @@ import Mutable from "./components/Mutable"
 import Navbar from "./components/Navbar"
 import Test from "./components/Test"
 import ToDo from "./components/ToDo"
+import UseEffe from "./components/UseEffe"
 import UsEREF from "./components/UsEREF"
 import UseState from "./components/UseState"
 
@@ -42,7 +43,8 @@ const App = () => {
         {/* <UseState></UseState> */}
         {/* <ToDo></ToDo> */}
         {/* <Form></Form> */}
-        <Test></Test>
+        {/* <Test></Test> */}
+        <UseEffe></UseEffe>
     </div>
   )
 }
