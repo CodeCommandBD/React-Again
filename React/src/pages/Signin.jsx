@@ -16,9 +16,9 @@ const Signin = () => {
     const submit = (e)=>{
         e.preventDefault()
         let data = {
-            name:'shanto',
-            email:'shantokumar@gmail.com',
-            city:'dhaka'
+            name:'',
+            email:'',
+            city:''
         }
         if(email === 'shantokumar@gmail.com' && pass === '123456'){
             navigate('/profile', {state : data})
