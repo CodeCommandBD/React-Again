@@ -15,8 +15,13 @@ const Signin = () => {
     }
     const submit = (e)=>{
         e.preventDefault()
+        let data = {
+            name:'shanto',
+            email:'shantokumar@gmail.com',
+            city:'dhaka'
+        }
         if(email === 'shantokumar@gmail.com' && pass === '123456'){
-            navigate('/profile')
+            navigate('/profile', {state : data})
         }else{
             alert('not match')
         }
