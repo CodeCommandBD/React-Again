@@ -7,12 +7,17 @@ import LearnHok from "./components/LearnHok"
 import Loop from "./components/Loop"
 import Mutable from "./components/Mutable"
 import Navbar from "./components/Navbar"
+import ReactDom from "./components/ReactDom"
 import Test from "./components/Test"
 import ToDo from "./components/ToDo"
 import UseEffe from "./components/UseEffe"
 import UsEREF from "./components/UsEREF"
 import UseState from "./components/UseState"
 
+import Home from "./pages/Home"
+import Hero from "./pages/Hero"
+import Error from "./pages/Error"
+import Product from "./pages/Product"
 
 
 
@@ -44,7 +49,12 @@ const App = () => {
         {/* <ToDo></ToDo> */}
         {/* <Form></Form> */}
         {/* <Test></Test> */}
-        <UseEffe></UseEffe>
+        {/* <UseEffe></UseEffe> */}
+        {/* <ReactDom></ReactDom> */}
+        
+        
+        
+        
     </div>
   )
 }
